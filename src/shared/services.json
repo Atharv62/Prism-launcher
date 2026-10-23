@@ -1,0 +1,7 @@
+[
+  { "id": "netflix", "name": "Netflix", "url": "https://www.netflix.com", "color": "#E50914", "mode": "app", "adblock": true, "allow": [] },
+  { "id": "prime", "name": "Prime Video", "url": "https://www.primevideo.com", "color": "#00A8E1", "mode": "app", "adblock": true, "allow": [] },
+  { "id": "hotstar", "name": "Hotstar", "url": "https://www.hotstar.com", "color": "#1F2A5C", "mode": "app", "adblock": true, "allow": [] },
+  { "id": "youtube", "name": "YouTube", "url": "https://www.youtube.com", "color": "#FF0000", "mode": "app", "adblock": true, "allow": [] },
+  { "id": "crunchyroll", "name": "Crunchyroll", "url": "https://www.crunchyroll.com", "color": "#F47521", "mode": "app", "adblock": true, "allow": [] }
+]
