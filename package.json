@@ -1,0 +1,65 @@
+{
+  "name": "prism-launcher",
+  "version": "1.0.0",
+  "main": "./out/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "typecheck": "tsc --noEmit",
+    "dist": "electron-vite build && electron-builder --win"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "electron": "^44.9.3",
+    "electron-builder": "^26.15.3",
+    "electron-vite": "^6.0.0",
+    "lucide-react": "^1.61.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "@ghostery/adblocker-electron": "^2.20.1"
+  },
+  "description": "A calm, tvOS-style launcher for your streaming services",
+  "author": {
+    "name": "Atharv Nikam",
+    "url": "https://github.com/Atharv62"
+  },
+  "build": {
+    "appId": "io.github.atharv62.prism",
+    "productName": "Prism",
+    "files": [
+      "out/**"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "copyright": "Copyright © 2026 Atharv Nikam"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Atharv62/Prism-launcher#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atharv62/Prism-launcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Atharv62/Prism-launcher/issues"
+  }
+}

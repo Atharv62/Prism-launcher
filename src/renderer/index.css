@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+html, body, #root { height: 100%; margin: 0; overflow: hidden; }
+::-webkit-scrollbar { display: none; }
+@keyframes fade { from { opacity: 0; } }
+@keyframes slide { from { transform: translateX(-100%); } to { transform: translateX(300%); } }
+body { font-family: "Segoe UI Variable Display", "Segoe UI", system-ui, sans-serif; }
+@keyframes rise { from { opacity: 0; transform: translateY(1.2vw); } }
+.rise { animation: rise .45s cubic-bezier(.2, .8, .2, 1) backwards; }
+.spring { transition-timing-function: cubic-bezier(.2, .8, .2, 1); }
+@media (prefers-reduced-motion: reduce) { .rise { animation: none; } }

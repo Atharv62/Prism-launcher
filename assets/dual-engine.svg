@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e1e2d"/>
+      <stop offset="100%" stop-color="#12121a"/>
+    </linearGradient>
+    <filter id="boxShadow" x="-5%" y="-10%" width="110%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="480" fill="#09090e" rx="16"/>
+
+  <text x="500" y="55" fill="white" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="700" text-anchor="middle">Prism Smart Dual-Engine Architecture</text>
+  <text x="500" y="82" fill="white" fill-opacity="0.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" text-anchor="middle">Seamlessly routes content based on DRM security vs open-web ad blocking</text>
+
+  <!-- Left Card: Isolated App Mode -->
+  <g transform="translate(60, 115)" filter="url(#boxShadow)">
+    <rect width="410" height="315" rx="20" fill="url(#cardBg1)" stroke="#00A8E1" stroke-opacity="0.4" stroke-width="1.5"/>
+    
+    <!-- Header -->
+    <rect x="24" y="24" width="40" height="40" rx="12" fill="#00A8E1" fill-opacity="0.2"/>
+    <text x="44" y="49" fill="#00A8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" text-anchor="middle">🛡️</text>
+    <text x="76" y="44" fill="white" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700">App Mode (Native DRM)</text>
+    <text x="76" y="62" fill="#00A8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">Widevine L1 / PlayReady 4K HDR</text>
+
+    <!-- Services -->
+    <g transform="translate(24, 85)">
+      <rect width="80" height="26" rx="6" fill="#E50914" fill-opacity="0.25"/>
+      <text x="40" y="17" fill="#E50914" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Netflix</text>
+
+      <rect x="90" y="0" width="90" height="26" rx="6" fill="#00A8E1" fill-opacity="0.25"/>
+      <text x="135" y="17" fill="#00A8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Prime Video</text>
+
+      <rect x="190" y="0" width="85" height="26" rx="6" fill="#1F2A5C" fill-opacity="0.8"/>
+      <text x="232" y="17" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">JioHotstar</text>
+
+      <rect x="285" y="0" width="75" height="26" rx="6" fill="#113ccf" fill-opacity="0.3"/>
+      <text x="322" y="17" fill="#4d72fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Disney+</text>
+    </g>
+
+    <!-- Bullets -->
+    <g transform="translate(24, 140)">
+      <text x="0" y="0" fill="white" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">⚡ Hardware-Accelerated Playback</text>
+      <text x="0" y="20" fill="white" fill-opacity="0.65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">Full 1080p, 4K UHD, HDR &amp; Dolby Vision.</text>
+
+      <text x="0" y="52" fill="white" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">📁 Sandboxed Edge/Chrome Profiles</text>
+      <text x="0" y="72" fill="white" fill-opacity="0.65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">Each service gets its own isolated user-data-dir.</text>
+
+      <text x="0" y="104" fill="white" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">🔒 Bypasses Electron DRM Limitations</text>
+      <text x="0" y="124" fill="white" fill-opacity="0.65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">No black-screens, audio-desync, or Widevine errors.</text>
+    </g>
+  </g>
+
+  <!-- Right Card: Embedded Mode -->
+  <g transform="translate(530, 115)" filter="url(#boxShadow)">
+    <rect width="410" height="315" rx="20" fill="url(#cardBg1)" stroke="#10b981" stroke-opacity="0.4" stroke-width="1.5"/>
+    
+    <!-- Header -->
+    <rect x="24" y="24" width="40" height="40" rx="12" fill="#10b981" fill-opacity="0.2"/>
+    <text x="44" y="49" fill="#10b981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" text-anchor="middle">🚀</text>
+    <text x="76" y="44" fill="white" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700">Embedded Mode (Ad-Free HUD)</text>
+    <text x="76" y="62" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">Ghostery Blocker + OpenGraph Resume</text>
+
+    <!-- Services -->
+    <g transform="translate(24, 85)">
+      <rect width="80" height="26" rx="6" fill="#FF0000" fill-opacity="0.25"/>
+      <text x="40" y="17" fill="#FF0000" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">YouTube</text>
+
+      <rect x="90" y="0" width="75" height="26" rx="6" fill="#9146FF" fill-opacity="0.25"/>
+      <text x="127" y="17" fill="#9146FF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Twitch</text>
+
+      <rect x="175" y="0" width="60" height="26" rx="6" fill="#53FC18" fill-opacity="0.2"/>
+      <text x="205" y="17" fill="#53FC18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Kick</text>
+
+      <rect x="245" y="0" width="95" height="26" rx="6" fill="#F47521" fill-opacity="0.25"/>
+      <text x="292" y="17" fill="#F47521" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Crunchyroll</text>
+    </g>
+
+    <!-- Bullets -->
+    <g transform="translate(24, 140)">
+      <text x="0" y="0" fill="white" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">🚫 Ghostery Ad &amp; Tracker Blocker</text>
+      <text x="0" y="20" fill="white" fill-opacity="0.65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">Intercepts popups, pre-rolls, and malicious redirects.</text>
+
+      <text x="0" y="52" fill="white" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">📌 Auto-Hiding Control Pill HUD</text>
+      <text x="0" y="72" fill="white" fill-opacity="0.65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">PiP, hardware zoom, audio mute, and live blocked count.</text>
+
+      <text x="0" y="104" fill="white" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">📺 Smart Resume Auto-Capture</text>
+      <text x="0" y="124" fill="white" fill-opacity="0.65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">Extracts og:image poster &amp; exact URL automatically.</text>
+    </g>
+  </g>
+</svg>
