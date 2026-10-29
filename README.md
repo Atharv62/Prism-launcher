@@ -7,7 +7,7 @@
   **A calm, tvOS-inspired streaming hub for your desktop.**
 
   <p align="center">
-    <a href="https://github.com/Atharv62/Prism-launcher/releases"><img src="https://img.shields.io/github/v/release/Atharv62/Prism-launcher?include_prereleases&color=6366f1&style=flat" alt="Pre-release"></a>
+    <a href="https://github.com/Atharv62/Prism-launcher/releases/tag/v1.0.0"><img src="https://img.shields.io/github/v/release/Atharv62/Prism-launcher?color=6366f1&style=flat" alt="Latest Release"></a>
     <img src="https://img.shields.io/badge/platform-Windows-0078D6?style=flat&logo=windows&logoColor=white" alt="Platform">
     <img src="https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white" alt="Electron">
     <img src="https://img.shields.io/badge/React_19-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React">
